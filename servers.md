@@ -13,11 +13,23 @@ subtitle: A list of community servers
 
 {% for game in site.data.servers %}
 # {{ game.game_name }}
-Servers:
 
-| Server Name                                         | Address    | Owner   |
-|:--------------------------------------------------  |:---------  |:------- |
-{% for commserv in game.community_servers %}
-| {{ commserv.name }} | {{ commserv.address }} [🔗](steam://connect/{{ commserv.address }}) | [{{ commserv.owner_name }} ]({{ commserv.owner_steamprofile }}) |
-{% endfor %}
+<table>
+    <thead>
+        <tr>
+            <th>Server Name</th>
+            <th>Address</th>
+            <th>Owner</th>
+        </tr>
+    </thead>
+    <tbody>
+    {% for commserv in game.community_servers %}
+        <tr>
+            <td>{{ commserv.name }}</td>
+            <td>{{ commserv.address }} [🔗](steam://connect/{{ commserv.address }})</td>
+            <td>[{{ commserv.owner_name }} ]({{ commserv.owner_steamprofile }})</td>
+        </tr>
+    {% endfor %}
+    </tbody>
+</table>
 {% endfor %}
