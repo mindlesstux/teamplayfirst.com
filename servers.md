@@ -26,8 +26,8 @@ subtitle: A list of community servers
     {% for commserv in game.community_servers %}
         <tr>
             <td>{{ commserv.name }}</td>
-            <td>{{ "{{ commserv.address }} [🔗](steam://connect/{{ commserv.address }})" | markdownify }}</td>
-            <td>{{ "[{{ commserv.owner_name }} ]({{ commserv.owner_steamprofile }})" | markdownify }}</td>
+            <td>{{ commserv.address }} <a href="steam://connect/{{ commserv.address }}">[🔗]</a></td>
+            <td><a href="{{ commserv.owner_steamprofile }}" target="_blank">{{ commserv.owner_name }}</a></td>
         </tr>
     {% endfor %}
     </tbody>
