@@ -12,7 +12,8 @@ subtitle: A list of community servers
 | MindlessTux Testing Grounds - Balloon Race          |  ares.mindlesstux.com:27016 	| [Click Here](steam://connect/ares.mindlesstux.com:27016)     	    | [MindlessTux](https://steamcommunity.com/id/mindlesstux/)      	|
 
 {% for game in site.data.servers %}
-# {{ game.shorthand }}, {{ game.game_name }}
+# {{ game.game_name }}
+Servers:
 
 | Server Name   | Address    | Quick Connect   | Owner   |
 |:-------------	|:---------  |:--------------- |:------- |
