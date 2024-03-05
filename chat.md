@@ -13,4 +13,4 @@ Join us on [Discord](https://discord.com/invite/vaESYaVT?utm_source=Discord%20Wi
 Join us via [Matrix](https://matrix.org/){:target="_blank"} at [#chat-space:teamplayfirst.com](https://matrix.to/#/#chat-space:teamplayfirst.com){:target="_blank"}
 
 # Coming Soon
-A mumble server will return in the near future for voice chat.
+A mumble server will return in the near future for voice chat.  Also looking into bridging a XMPP/Jabber chatroom to the Matrix Chat (and thus to Discord)
