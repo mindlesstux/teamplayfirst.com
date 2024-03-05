@@ -1,0 +1,9 @@
+---
+tf2:
+  default_steam_clickhere: true
+  game_name: Team Fortress 2
+  community_servers:
+    - name: MindlessTux Testing Grounds - TF2
+      address: ares.mindlesstux.com:27015
+      owner_name: MindlessTux
+      owner_steamprofile: https://steamcommunity.com/id/mindlesstux/
