@@ -1,11 +1,11 @@
 ---
-layout: page
+layout: page_wider
 title: Servers
 subtitle: A list of community servers
 ---
 
 {% for game in site.data.servers %}
-# {{ game.game_name }}
+### {{ game.game_name }}
 
 <table>
     <thead>
