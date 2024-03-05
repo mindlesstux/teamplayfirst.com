@@ -15,10 +15,9 @@ subtitle: A list of community servers
 # {{ game.game_name }}
 Servers:
 
-| Server Name   | Address    | Quick Connect   | Owner   |
-|:-------------	|:---------  |:--------------- |:------- |
+| Server Name                                         | Address    | Owner   |
+|:--------------------------------------------------  |:---------  |:------- |
 {% for commserv in game.community_servers %}
-| {{ commserv.name }} | {{ commserv.address }} | = | [{{ commserv.owner_name }} ]({{ commserv.owner_steamprofile }}) |
+| {{ commserv.name }} | {{ commserv.address }} [🔗](steam://connect/{{ commserv.address }}) | [{{ commserv.owner_name }} ]({{ commserv.owner_steamprofile }}) |
 {% endfor %}
-
 {% endfor %}
