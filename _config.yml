@@ -24,6 +24,7 @@ navbar-links:
   Forum: "https://discourse.teamplayfirst.com"
   #Chat: "https://element.teamplayfirst.com"
   Chat: "chat"
+  Servers: "servers"
 
 ################
 # --- Logo --- #
