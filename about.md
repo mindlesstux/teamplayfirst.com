@@ -4,7 +4,7 @@ title: About
 subtitle: About Team Play First
 ---
 
-*Below is the Mission Statement from the original Teamplay First Group that developed out of the Half-Life community. It may be a little out-dated, but the ideals still apply.*
+*Below is the Mission Statement from the original Team Play First group that developed out of the Half-Life community. It may be a little out-dated, but the ideals still apply.*
 
 ---
 
