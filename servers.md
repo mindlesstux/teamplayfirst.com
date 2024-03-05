@@ -13,8 +13,8 @@ subtitle: A list of community servers
 {% for game in site.data.servers %}
 # {{ game.shorthand }}, {{ game.game_name }}
 
-| Server Name 	| Address   | Quick Connect  | Owner 	|
-|-------------	|---------  |------	         |-------	|
+| Server Name   | Address    | Quick Connect   | Owner   |
+|:-------------	|:---------  |:--------------- |:------- |
 {% for commserv in game.community_servers %}
 | {{ commserv.name }} | {{ commserv.address }} | = | [{{ commserv.owner_name }} ]({{ commserv.owner_steamprofile }}) |
 {% endfor %}
