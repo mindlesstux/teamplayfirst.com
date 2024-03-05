@@ -1,6 +1,6 @@
 ---
 - shorthand: tf2
-  default_steam_clickhere: true
+  default_steam_clickhere: True
   game_name: Team Fortress 2
   community_servers:
     - name: MindlessTux Testing Grounds - TF2
@@ -11,3 +11,28 @@
       address: ares.mindlesstux.com:27016
       owner_name: MindlessTux
       owner_steamprofile: https://steamcommunity.com/id/mindlesstux/
+- shorthand: terraria
+  default_steam_clickhere: True
+  game_name: Terraria
+  community_servers:
+- shorthand: teeworlds
+  default_steam_clickhere: True
+  game_name: Teeworlds
+  community_servers:
+- shorthand: tfc
+  default_steam_clickhere: True
+  game_name: Team Fortress Classic
+  community_servers:
+- shorthand: satisfactory
+  default_steam_clickhere: True
+  game_name: Satisfactory
+  community_servers:
+- shorthand: palworld
+  default_steam_clickhere: True
+  game_name: Palworld
+  community_servers:
+- shorthand: minecraft
+  default_steam_clickhere: False
+  game_name: Minecraft
+  community_servers:
+
