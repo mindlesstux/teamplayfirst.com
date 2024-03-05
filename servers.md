@@ -8,7 +8,8 @@ subtitle: A list of community servers
 
 | Server Name 	| Address 	                    | Quick Connect                                              	| Owner 	|
 |-------------	|---------	                    |------	                                                        |-------	|
-| ASDF          |  ares.mindlesstux.com:27015 	| [Click Here](steam://connect/206.191.148.46:27016)     	    | [MindlessTux](https://steamcommunity.com/id/mindlesstux/)      	|
+| MindlessTux Testing Grounds - TF2          |  ares.mindlesstux.com:27015 	| [Click Here](steam://connect/ares.mindlesstux.com:27015)     	    | [MindlessTux](https://steamcommunity.com/id/mindlesstux/)      	|
+| MindlessTux Testing Grounds - Balloon Race          |  ares.mindlesstux.com:27016 	| [Click Here](steam://connect/ares.mindlesstux.com:27016)     	    | [MindlessTux](https://steamcommunity.com/id/mindlesstux/)      	|
 
 {% for game in site.data.servers %}
 # {{ game.shorthand }}, {{ game.game_name }}
